@@ -185,7 +185,7 @@ service iprenew_wlan0 /system/bin/dhcpcd -n
     disabled
     oneshot
 
-service mpdecision /system/bin/mpdecision --no_sleep
+service mpdecision /system/bin/mpdecision --no_sleep --avg_comp
     user root
     disabled
 
