@@ -2,6 +2,7 @@
 etc/agps_rm
 
 # Executable files
+bin/adaptive
 bin/akmd
 bin/charging
 bin/mm-qcamera-daemon
