@@ -237,11 +237,6 @@ service rmt_storage /system/bin/rmt_storage modem_st1 modem_st2 recovery radio_c
     class core
     user root
 
-service adaptive /system/bin/adaptive -c 0 -s 200 -b 300
-    class core
-    user root
-    disabled
-
 service thermald /system/bin/thermald
     class main
     user root

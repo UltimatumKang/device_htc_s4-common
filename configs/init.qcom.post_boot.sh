@@ -359,13 +359,6 @@ case "$target" in
     ;;
 esac
 
-# Adaptive
-case "$target" in
-    "msm8660" | "msm8960")
-        start adaptive
-    ;;
-esac
-
 # Enable Power modes and set the CPU Freq Sampling rates
 case "$target" in
      "msm7627a")
