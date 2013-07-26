@@ -18,6 +18,7 @@ LOCAL_SRC_FILES += \
 
 LOCAL_CFLAGS += \
      -fno-short-enums \
+     -fno-strict-aliasing \
      -D_ANDROID_
 
 ## Includes
