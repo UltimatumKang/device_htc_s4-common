@@ -48,7 +48,6 @@ BOARD_USES_SEPERATED_AUDIO_INPUT := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
-BLUETOOTH_HCI_USE_MCT := true
 
 
 # Camera
