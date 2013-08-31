@@ -85,6 +85,7 @@
 # permissions for audio
 /dev/msm_amrnb            0660  system       audio
 /dev/msm_amrwb            0660  system       audio
+/dev/msm_amrwbplus        0660  system       audio
 /dev/msm_aac              0660  system       audio
 /dev/msm_multi_aac        0660  system       audio
 /dev/msm_aac_in           0660  system       audio
@@ -100,6 +101,8 @@
 /dev/msm_preproc_ctl      0660  system       audio
 /dev/msm_a2dp_in          0640  system       audio
 /dev/msm_amrnb_in         0640  system       audio
+/dev/msm_amrwb_in         0640  system       audio
+/dev/usf1                 0660  system       audio
 
 # sensors
 /dev/akm8975_aot          0640  compass      system
